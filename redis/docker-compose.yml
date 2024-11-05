@@ -1,0 +1,7 @@
+---
+services:
+  redis-redis-stack:
+    image: redis/redis-stack
+    ports:
+      - 6379:6379 # redis port
+      - 8081:8081 # redis-stack port GUI port redis
