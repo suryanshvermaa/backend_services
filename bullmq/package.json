@@ -1,7 +1,6 @@
 {
-  "name": "kafka",
+  "name": "bullmq",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,9 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "bullmq": "^5.24.0",
-    "ioredis": "^5.4.1",
-    "kafkajs": "^2.2.4"
+    "bullmq": "^5.25.0"
   }
 }
